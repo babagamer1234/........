@@ -2,59 +2,71 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>My Profile</title>
+<title>Baba Gamer | Profile</title>
 <style>
 body{
   margin:0;
-  height:100vh;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  background:linear-gradient(135deg,#1d2671,#c33764);
   font-family:Arial, sans-serif;
+  background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+  color:#fff;
+}
+nav{
+  background:#000;
+  padding:12px;
+  text-align:center;
+}
+nav a{
+  color:#fff;
+  margin:0 12px;
+  text-decoration:none;
+  font-weight:bold;
 }
 .card{
   background:#fff;
+  color:#000;
   width:320px;
+  margin:40px auto;
   padding:25px;
   border-radius:16px;
   text-align:center;
-  box-shadow:0 15px 40px rgba(0,0,0,0.3);
 }
 .card img{
   width:110px;
   height:110px;
   border-radius:50%;
-  border:4px solid #c33764;
-  object-fit:cover;
-}
-.card h2{
-  margin:15px 0 5px;
-}
-.card p{
-  color:#555;
-  font-size:14px;
-}
-.skills{
-  margin-top:15px;
+  border:4px solid #2c5364;
 }
 .skills span{
   display:inline-block;
-  background:#c33764;
+  background:#2c5364;
   color:#fff;
   padding:6px 12px;
   border-radius:20px;
   font-size:12px;
   margin:4px;
 }
+footer{
+  text-align:center;
+  padding:10px;
+  background:#000;
+  position:fixed;
+  bottom:0;
+  width:100%;
+}
 </style>
 </head>
 <body>
 
+<nav>
+  <a href="index.html">Profile</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
 <div class="card">
-  <img src="https://i.imgur.com/8Km9tLL.png" alt="Profile">
-  <h2>Your Name</h2>
-  <p>Web Developer | Beginner Friendly</p>
+  <img src="https://i.imgur.com/8Km9tLL.png">
+  <h2>Baba Gamer</h2>
+  <p>Web Creator | Beginner Friendly</p>
 
   <div class="skills">
     <span>HTML</span>
@@ -63,6 +75,8 @@ body{
     <span>Ads Setup</span>
   </div>
 </div>
+
+<footer>Made by Baba Gamer</footer>
 
 </body>
 </html>
